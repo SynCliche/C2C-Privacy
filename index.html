@@ -1,71 +1,263 @@
-# C2C Alexa Skill Privacy Policy
 
-**Last updated:** 25 October 2026
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12345a">
+  <meta name="description" content="Privacy policy for the C2C Alexa skill, including saved origin station preferences and data deletion.">
+  <title>Privacy Policy | C2C Alexa Skill</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --navy: #12345a;
+      --blue: #1769aa;
+      --ink: #253247;
+      --muted: #5b6879;
+      --paper: #ffffff;
+      --background: #f2f5f9;
+      --line: #dce3ec;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--ink);
+      font: 16px/1.75 system-ui, -apple-system, BlinkMacSystemFont,
+            "Segoe UI", sans-serif;
+    }
+    header {
+      background: var(--navy);
+      color: white;
+      padding: 34px 20px;
+    }
+    .header-inner, main, footer {
+      width: min(860px, calc(100% - 32px));
+      margin-inline: auto;
+    }
+    .brand {
+      margin: 0 0 8px;
+      font-size: .85rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      opacity: .85;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.2;
+    }
+    header p:last-child {
+      margin-bottom: 0;
+      color: #e0eaf5;
+    }
+    main {
+      margin-block: 30px;
+      padding: clamp(22px, 5vw, 44px);
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      box-shadow: 0 8px 28px rgb(18 52 90 / 6%);
+    }
+    h2 {
+      margin: 30px 0 8px;
+      color: var(--navy);
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+    h2:first-child { margin-top: 0; }
+    p { margin: 10px 0; }
+    ul { padding-left: 24px; }
+    li { margin-block: 5px; }
+    a { color: var(--blue); text-underline-offset: 3px; }
+    a:hover { color: var(--navy); }
+    a:focus-visible {
+      outline: 3px solid #f2b544;
+      outline-offset: 3px;
+      border-radius: 3px;
+    }
+    .notice {
+      padding: 16px 18px;
+      background: #edf5fc;
+      border-left: 4px solid var(--blue);
+      border-radius: 6px;
+    }
+    .updated { color: var(--muted); font-size: .92rem; }
+    footer {
+      padding: 0 0 30px;
+      color: var(--muted);
+      font-size: .9rem;
+      text-align: center;
+    }
+    footer nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px 20px;
+      margin-bottom: 10px;
+    }
+    @media (max-width: 480px) {
+      header { padding-block: 26px; }
+      main { margin-block: 16px; border-radius: 10px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <p class="brand">C2C · Alexa Skill</p>
+      <h1>Privacy Policy</h1>
+      <p>How C2C handles your saved station preference and information.</p>
+    </div>
+  </header>
 
-## 1. Introduction
+  <main>
+    <p class="updated">Last updated: 25 October 2026</p>
 
-C2C is an Alexa skill that provides information about live C2C train services. This Privacy Policy explains how information is handled when you use the C2C Alexa skill.
+    <p>
+      This Privacy Policy explains how the C2C Alexa skill handles information
+      when you use it to request live train information.
+    </p>
+    <p>
+      The skill is operated by an independent individual developer. For
+      privacy questions or requests, contact
+      <a href="mailto:notcrypticblade@gmail.com">notcrypticblade@gmail.com</a>.
+    </p>
 
-The skill is operated by **[your name or business name]** (“we”, “us” or “our”).
+    <h2>1. Information we store</h2>
+    <p>
+      When you set a preferred origin station, the skill stores the station
+      preference in a cloud-hosted database associated with your Alexa
+      <code>userId</code>.
+    </p>
+    <p>
+      The <code>userId</code> is an identifier supplied by Alexa that allows
+      the skill to associate requests with the same enabled Alexa account.
+      It is not, by itself, your name or email address, but it is treated
+      as information that can be linked to your use of the skill.
+    </p>
 
-## 2. Information We Process
+    <h2>2. Why we use this information</h2>
+    <p>We use your saved origin station to:</p>
+    <ul>
+      <li>Remember your preferred starting station between requests.</li>
+      <li>Let you request train information using fewer words.</li>
+      <li>Retrieve relevant train information for your journey.</li>
+    </ul>
+    <p>
+      We do not need your name, home address or email address to provide
+      this saved-station feature.
+    </p>
 
-When you use C2C, the following information may be processed, depending on how the skill is configured:
+    <h2>3. Where information is stored</h2>
+    <p>
+      Your preferred origin station and its associated Alexa user identifier
+      are stored in a cloud database used by the skill's backend. The
+      database service provider and its applicable privacy and security
+      arrangements depend on the hosting configuration.
+    </p>
+    <p>
+      Alexa also processes information when you interact with the skill.
+      Amazon's handling of Alexa voice requests and account information is
+      governed by Amazon's own privacy information.
+    </p>
+    <p>
+      <a href="https://www.amazon.co.uk/gp/help/customer/display.html?nodeId=201602230"
+         target="_blank" rel="noopener noreferrer">
+        Read Amazon's Alexa privacy information
+      </a>.
+    </p>
 
-- **Voice requests and request text:** Information needed to understand your train information requests. Amazon Alexa processes voice interactions as part of providing its service.
-- **Account information:** If account linking is enabled, information needed to associate your Alexa user with your relevant account or service.
-- **Technical information:** Limited technical or diagnostic information, if collected by our skill's backend, to operate the service and troubleshoot problems.
-- **Train information:** The station, route, departure, arrival or service information requested to provide live train updates.
+    <h2>4. Live train information</h2>
+    <p>
+      The skill retrieves train information from C2C-related data sources
+      to respond to your requests. The saved origin station is used to
+      simplify those requests.
+    </p>
 
-We do not intentionally collect information that is unnecessary to provide the C2C service.
+    <h2>5. Retention and deletion</h2>
+    <p>
+      We retain your saved origin station and its associated Alexa user
+      identifier until you ask the skill to forget or delete the saved
+      preference. When a deletion request is processed, the associated
+      saved preference will be removed from the active database.
+    </p>
+    <p>
+      To remove your saved station, use the skill's voice-based forget or
+      reset command, if available. If that command does not work, email
+      <a href="mailto:notcrypticblade@gmail.com">notcrypticblade@gmail.com</a>
+      and request deletion of your saved C2C station preference.
+    </p>
+    <p>
+      Disabling the skill in Alexa may change the Alexa user identifier
+      supplied to the skill in the future; do not assume that disabling
+      the skill automatically deletes an existing database record.
+    </p>
 
-## 3. How We Use Information
+    <h2>6. Sharing and disclosure</h2>
+    <p>
+      The saved preference is used to provide the skill's functionality.
+      The backend and cloud database providers may process information
+      as necessary to operate and secure the service. Train data providers
+      may receive queries needed to retrieve train information.
+    </p>
+    <p>
+      We do not sell your saved station preference or associated Alexa
+      user identifier.
+    </p>
 
-Information processed by the skill is used only as necessary to:
+    <h2>7. Security</h2>
+    <p>
+      Reasonable technical and organisational measures should be used to
+      protect the database and restrict access to stored preferences.
+      No internet service or storage system can be guaranteed to be
+      completely secure.
+    </p>
 
-- Retrieve and provide live C2C train information.
-- Authenticate or associate a user account, where account linking is enabled.
-- Maintain the security, reliability and functionality of the skill.
-- Diagnose technical issues and respond to support requests.
+    <h2>8. Your privacy rights</h2>
+    <p>
+      Depending on where you live, you may have rights to request access
+      to, correction of, or deletion of personal information. Contact us
+      using the email address above to make a request.
+    </p>
 
-## 4. Storage and Retention
+    <h2>9. Children's privacy</h2>
+    <p>
+      This skill is intended to provide train information and is not
+      specifically designed to collect children's personal information.
+    </p>
 
-[Explain whether account identifiers, access tokens, refresh tokens, request logs or other information are stored, where they are stored, and how long they are retained.]
+    <h2>10. Changes to this policy</h2>
+    <p>
+      We may update this policy if the skill's functionality, data handling
+      or legal obligations change. The latest version will be available
+      at this page.
+    </p>
 
-Information is retained only for as long as necessary for the purposes described in this policy or as required by applicable law.
+    <h2>11. Contact</h2>
+    <p>
+      For privacy questions, access requests or deletion requests, email
+      <a href="mailto:notcrypticblade@gmail.com">notcrypticblade@gmail.com</a>.
+    </p>
 
-## 5. Sharing and Third-Party Services
+    <p class="notice">
+      Please see our <a href="terms.html">Terms of Use</a> for the conditions
+      that apply to using the C2C Alexa skill.
+    </p>
+  </main>
 
-C2C may rely on Amazon Alexa and third-party train information services to operate.
-
-Information is shared with those services only as needed to provide the requested functionality, subject to the services' applicable terms and privacy policies.
-
-[Identify the actual live train data provider and any other services that receive user information.]
-
-We do not sell personal information.
-
-## 6. Security
-
-We take reasonable measures to protect information processed by the skill. No method of electronic storage or transmission can be guaranteed to be completely secure.
-
-## 7. Your Choices and Privacy Rights
-
-You can stop using the skill at any time. If account linking is enabled, you can also revoke access through the relevant account or Alexa settings, where available.
-
-Depending on your location and applicable law, you may have rights to access, correct or request deletion of personal information. To make a privacy request, contact us using the details below.
-
-## 8. Children's Privacy
-
-C2C is not specifically directed at children. [Confirm whether this accurately reflects your intended audience and data practices.]
-
-## 9. Changes to This Policy
-
-We may update this Privacy Policy when our practices or legal obligations change. The latest version will be available at this page.
-
-## 10. Contact
-
-For questions about this Privacy Policy or personal information handled by C2C, contact:
-
-**Operator:** [your name or business name]  
-**Email:** [your privacy contact email]
-
+  <footer>
+    <nav aria-label="Legal pages">
+      <a href="./">Privacy Policy</a>
+      <a href="terms.html">Terms of Use</a>
+      <a href="mailto:notcrypticblade@gmail.com">Contact</a>
+    </nav>
+    <p>C2C Alexa Skill · Independently operated</p>
+  </footer>
+</body>
+</html>
